@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+p {
+    background-color: green;
+}
+
+* p, h1 {
+    border: 1px solid black;
+}
+
+#chosen {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
